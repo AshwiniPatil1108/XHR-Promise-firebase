@@ -1,0 +1,39 @@
+body{
+   background-image: linear-gradient(black, teal);
+}
+.cards{
+    height: 370px;
+    color: white;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 3px, 4px, 10px, 2px#424242;
+    background-image: url("https://img.freepik.com/free-photo/neon-light-background_52683-132350.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723248000&semt=ais_hybrid")
+
+}
+
+
+
+.text-right .btn{
+    color: white;
+    background-image: linear-gradient(#FF8F00,#062e2e);
+
+}
+.postcard h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
